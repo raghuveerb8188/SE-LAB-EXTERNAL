@@ -1,0 +1,38 @@
+# Check Docker version
+docker --version
+
+# Display Docker system information
+docker info
+
+# Download hello-world image
+docker pull hello-world
+
+# Run hello-world container
+docker run hello-world
+
+# Display running containers
+docker ps
+
+# Display all containers
+docker ps -a
+
+# Download Ubuntu image
+docker pull ubuntu
+
+# Run Ubuntu container interactively
+docker run -it ubuntu bash
+
+# Display Docker images
+docker images
+
+# Stop a running container
+docker stop CONTAINER_ID
+
+# Start a stopped container
+docker start CONTAINER_ID
+
+# Remove a container
+docker rm CONTAINER_ID
+
+# Remove an image
+docker rmi IMAGE_NAME

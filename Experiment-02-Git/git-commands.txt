@@ -1,0 +1,45 @@
+# Configure Git
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+# Check configuration
+git config --global --list
+
+# Initialize a repository
+git init
+
+# Check repository status
+git status
+
+# Add files
+git add .
+
+# Commit changes
+git commit -m "First commit"
+
+# View commit history
+git log
+
+# Create a branch
+git branch
+
+# Create and switch to a branch
+git checkout -b feature
+
+# Switch branch
+git checkout main
+
+# Add remote repository
+git remote add origin YOUR_GITHUB_REPOSITORY_URL
+
+# View remote
+git remote -v
+
+# Push code to GitHub
+git push -u origin main
+
+# Download repository
+git clone YOUR_GITHUB_REPOSITORY_URL
+
+# Get latest changes
+git pull origin main
